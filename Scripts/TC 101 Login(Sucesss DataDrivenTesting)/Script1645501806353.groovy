@@ -27,6 +27,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Us
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
+WebUI.verifyTextPresent('Dashboard', false)
+
+WebUI.takeScreenshot('C:\\Users\\ASUS\\Downloads\\TC101.png')
+
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome Root'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
